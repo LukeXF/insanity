@@ -1,0 +1,239 @@
+body, html {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  text-align: center;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+  background: url("../img/bg.jpg") #333;
+  background-size: cover; }
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.animate, .insanity .click, .insanity h4 a, .insanity .twitter, .insanity .updates .tweet, .insanity .tweets .tweet, .insanity .questions .tweet {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.insanity body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  position: absolute; }
+.insanity .bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0; }
+.insanity .ibg-bg {
+  position: absolute;
+  z-index: -1; }
+.insanity .dotts {
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+  z-index: 999;
+  min-height: 100%; }
+.insanity .tile {
+  background-color: #161616;
+  color: white;
+  padding: 50px;
+  margin-top: 190px; }
+  .insanity .tile #clockdiv {
+    margin-left: -10px; }
+    .insanity .tile #clockdiv .days, .insanity .tile #clockdiv .hours, .insanity .tile #clockdiv .minutes, .insanity .tile #clockdiv .seconds {
+      font-size: 40px;
+      text-align: left; }
+    .insanity .tile #clockdiv .smalltext {
+      color: rgba(255, 255, 255, 0.51);
+      margin-top: -10px;
+      text-align: left; }
+.insanity .bg-home {
+  background: url("../img/bg.jpg");
+  background-size: 100%; }
+.insanity .tile-wrapper {
+  background-color: #161616; }
+.insanity .tile-home {
+  background-color: #161616;
+  color: white;
+  padding: 50px;
+  margin-top: 30px; }
+  .insanity .tile-home h3 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: left;
+    margin: 20px 6px -32px;
+    font-weight: bold;
+    color: #aaa; }
+.insanity .tile-contact, .insanity .tile-questions {
+  background-color: #161616;
+  color: white;
+  padding: 50px;
+  margin-top: 30px; }
+  .insanity .tile-contact .form-horizontal, .insanity .tile-questions .form-horizontal {
+    padding-top: 20px; }
+    .insanity .tile-contact .form-horizontal .form-control, .insanity .tile-questions .form-horizontal .form-control {
+      border-radius: 0;
+      padding: 20px;
+      background: #222;
+      border-color: transparent;
+      color: #aaa; }
+      .insanity .tile-contact .form-horizontal .form-control:focus, .insanity .tile-contact .form-horizontal .form-control .btn, .insanity .tile-questions .form-horizontal .form-control:focus, .insanity .tile-questions .form-horizontal .form-control .btn {
+        border-color: #293750;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(41, 55, 80, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(41, 55, 80, 0.6); }
+    .insanity .tile-contact .form-horizontal label.label-floatlabel, .insanity .tile-questions .form-horizontal label.label-floatlabel {
+      font-weight: bold;
+      font-size: 11px; }
+    .insanity .tile-contact .form-horizontal label, .insanity .tile-questions .form-horizontal label {
+      padding: 8px 14px;
+      color: white !important; }
+    .insanity .tile-contact .form-horizontal textarea, .insanity .tile-questions .form-horizontal textarea {
+      min-width: 100%;
+      max-width: 100%; }
+.insanity .click {
+  background: white;
+  width: 50%;
+  position: inherit;
+  margin-left: 25%;
+  opacity: 0.7;
+  cursor: pointer; }
+  .insanity .click:hover {
+    opacity: 1; }
+  .insanity .click:before {
+    border-color: #FFF transparent transparent #FFF;
+    border-style: solid;
+    border-width: 10px 20px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0px;
+    content: " ";
+    right: -40px; }
+  .insanity .click:after {
+    border-color: #FFF #FFF transparent transparent;
+    border-style: solid;
+    border-width: 10px 20px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0px;
+    content: " ";
+    left: -40px; }
+.insanity h1 {
+  text-align: left;
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+.insanity h2 {
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+.insanity h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+  .insanity h4 a {
+    text-decoration: none;
+    color: #aaa; }
+    .insanity h4 a:hover {
+      color: white; }
+.insanity .split {
+  width: 200px;
+  height: 10px;
+  background: white;
+  margin: 5px; }
+.insanity .split-small {
+  width: 150px;
+  height: 7px;
+  background: white;
+  margin: 0; }
+.insanity .twitter {
+  position: absolute;
+  right: 30px;
+  top: 205px;
+  padding-top: 15px;
+  opacity: 0.3; }
+  .insanity .twitter .fa {
+    color: white; }
+  .insanity .twitter:hover {
+    opacity: 1; }
+.insanity .updates .update, .insanity .updates .tweet, .insanity .updates .question, .insanity .tweets .update, .insanity .tweets .tweet, .insanity .tweets .question, .insanity .questions .update, .insanity .questions .tweet, .insanity .questions .question {
+  background-color: #222222;
+  padding: 10px;
+  text-align: left;
+  margin: 20px 0; }
+  .insanity .updates .update p, .insanity .updates .tweet p, .insanity .updates .question p, .insanity .tweets .update p, .insanity .tweets .tweet p, .insanity .tweets .question p, .insanity .questions .update p, .insanity .questions .tweet p, .insanity .questions .question p {
+    color: #aaa; }
+  .insanity .updates .update a, .insanity .updates .tweet a, .insanity .updates .question a, .insanity .tweets .update a, .insanity .tweets .tweet a, .insanity .tweets .question a, .insanity .questions .update a, .insanity .questions .tweet a, .insanity .questions .question a {
+    color: #aaa; }
+    .insanity .updates .update a:hover, .insanity .updates .tweet a:hover, .insanity .updates .question a:hover, .insanity .tweets .update a:hover, .insanity .tweets .tweet a:hover, .insanity .tweets .question a:hover, .insanity .questions .update a:hover, .insanity .questions .tweet a:hover, .insanity .questions .question a:hover {
+      text-decoration: none; }
+  .insanity .updates .update.big b, .insanity .updates .tweet.big b, .insanity .updates .question.big b, .insanity .tweets .update.big b, .insanity .tweets .tweet.big b, .insanity .tweets .question.big b, .insanity .questions .update.big b, .insanity .questions .tweet.big b, .insanity .questions .question.big b {
+    background-color: #161616;
+    margin: 15px;
+    font-size: 25px;
+    display: block;
+    padding: 15px; }
+  .insanity .updates .update.big p, .insanity .updates .tweet.big p, .insanity .updates .question.big p, .insanity .tweets .update.big p, .insanity .tweets .tweet.big p, .insanity .tweets .question.big p, .insanity .questions .update.big p, .insanity .questions .tweet.big p, .insanity .questions .question.big p {
+    padding: 0 15px; }
+.insanity .updates .question-info, .insanity .tweets .question-info, .insanity .questions .question-info {
+  margin-bottom: 15px;
+  min-height: 219px; }
+.insanity .updates .follow, .insanity .tweets .follow, .insanity .questions .follow {
+  color: #aaa;
+  text-decoration: none; }
+  .insanity .updates .follow a, .insanity .tweets .follow a, .insanity .questions .follow a {
+    text-decoration: none;
+    color: white; }
+.insanity .updates .tweet, .insanity .tweets .tweet, .insanity .questions .tweet {
+  border: 1px solid transparent; }
+  .insanity .updates .tweet:hover, .insanity .updates .tweet:focus, .insanity .tweets .tweet:hover, .insanity .tweets .tweet:focus, .insanity .questions .tweet:hover, .insanity .questions .tweet:focus {
+    border: 1px solid #293750;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(41, 55, 80, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(41, 55, 80, 0.6); }
+.insanity .btn {
+  width: 100%;
+  border-radius: 0;
+  padding: 10px;
+  background-color: #222;
+  border-color: #293750;
+  text-transform: uppercase;
+  font-weight: bold; }
+  .insanity .btn:active, .insanity .btn:focus {
+    outline: #293750;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(41, 55, 80, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(41, 55, 80, 0.6); }
+
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .insanity .tile h1 {
+    font-size: 50px; }
+
+  .insanity .tile #clockdiv .smalltext {
+    text-align: center; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .insanity .tile h1 {
+    text-align: center; }
+
+  .insanity .tile .split {
+    margin: 5px auto; } }
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=style.css.map */
